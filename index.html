@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,17 +48,15 @@
         </div>
     </nav>
 
-      <div id="about" class="fixed-width bg-color top-part mt-4 mb-3">
+      <div data-aos="zoom-in" data-aos-duration="500" id="about" class="fixed-width bg-color top-part mt-4 mb-3">
         <div class="row align-items-center">
             <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                <h1 class="heading-style">Hi, I'm 
-                    <br>
-                    <div class="spacer mt-3 mb-3" style="height: 4px; background-color: #23294C; width: 100px;"></div>
-                    <span>Abdul Wahab</span>
-                    <div class="spacer mb-3" style="height: 4px; background-color: #23294C; width: 100px;"></div>
-                </h1>
+                <h2 class="heading-style">Hi, I'm</h2>
+                <div class="spacer mt-3 mb-3" style="height: 4px; background-color: #23294C; width: 100px;"></div>
                 
-
+                <h1 class="heading-h1-style">Abdul Wahab</h1>    
+                
+                <div class="spacer mb-3" style="height: 4px; background-color: #23294C; width: 100px;"></div>
                 <p class="heading-para">I'm a freelance tech content writer and a front-end web developer. I've been serving up content for top tech blogs like <a href="https://www.maketecheasier.com/author/abdulwahab/">MakeTechEasier</a>, <a href="https://mspoweruser.com/author/abdul/">MSPowerUser</a>, and <a href="https://www.digitbin.com/author/abdulwahab/">DigitBin</a> for quite a while. I also run a blog of my own, called <a href="https://motherboardtimes.com/">MotherboardTimes</a>. Moreover, I've been exploring web development in the past 6 months. So far, I've built some great webpages and websites using HTML, CSS, & JavaScript that I'd love for you to see.</p>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6">
@@ -73,7 +76,7 @@
         <div class="ways-help row d-flex flex-wrap">
           
         
-          <div class="writing col-12 col-sm-12 col-lg-6 col-md-12 d-flex justify-content-center justify-content-lg-end align-items-center pb-2">
+          <div data-aos="fade-right" data-aos-duration="500" class="writing col-12 col-sm-12 col-lg-6 col-md-12 d-flex justify-content-center justify-content-lg-end align-items-center pb-2">
             <div class="writing-img text-center">
                 <a href="#writing">
                   <img class="img-fluid" src="tech-writing.jpg" alt="">
@@ -82,7 +85,7 @@
             </div>
           </div>
 
-          <div class="coding col-12 col-sm-12 col-lg-6 col-md-12 d-flex justify-content-center justify-content-lg-start align-items-center pb-2">
+          <div data-aos="fade-left" data-aos-duration="500" class="coding col-12 col-sm-12 col-lg-6 col-md-12 d-flex justify-content-center justify-content-lg-start align-items-center pb-2">
               <div class="coding-img text-center">
                 <a href="#coding">
                   <img class="img-fluid" src="coding.jpg" alt="">
@@ -94,7 +97,7 @@
         </div>
       </div>
 
-      <div id="writing" class="writing-work fixed-width">
+      <div data-aos="fade-up" data-aos-duration="500" id="writing" class="writing-work fixed-width">
         <div class="row d-flex">
           <div class="col col-12 col-sm-12 col-md-5 col-lg-5">
             <h2 class="h2-heading-style">Tech Writing</h2>
@@ -178,7 +181,7 @@
         </div>
       </div>
 
-      <div id="coding" class="writing-work fixed-width mb-5">
+      <div data-aos="fade-up" data-aos-duration="500" id="coding" class="writing-work fixed-width mb-5">
         <div class="row d-flex">
           <div class="col col-12 col-sm-12 col-md-5 col-lg-5">
             <h2 class="h2-heading-style">Front-end Web Development</h2>
@@ -256,7 +259,7 @@
         </div>
       </div>
           
-      <div id="contact" class="contact fixed-width">
+      <div data-aos="zoom-in" data-aos-duration="500" id="contact" class="contact fixed-width">
         <div class="heading text-center">
           <h2 class="h2-heading-style">Hit Me Up</h2>
         </div>
@@ -288,5 +291,11 @@
       
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
